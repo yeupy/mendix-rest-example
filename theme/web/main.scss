@@ -1,0 +1,65 @@
+@import "custom-variables";
+
+input.form-control, .mx-button, .mx-textbox, select.form-control, .mx-dropdown {
+    height: 26px !important;
+    font-size: small;
+}
+
+.form-horizontal .control-label, .form-control-static {
+    margin-bottom: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+input.form-control, .mx-button {
+    padding: 0px 8px;
+}
+
+select.form-control, .mx-dropdown {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.mx-grid-content {
+    td, th {
+        padding: 7px !important;
+    }
+}
+
+.mx-grid-search-label {
+    width: 90px;
+}
+
+.mx-grid-search-input {
+    width: 110px;
+}
+
+.middle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.layout-atlas .region-topbar .navbar-brand a {
+    font-size: 14px;
+}
+
+.flexcontainer {
+    .mx-checkbox {
+        width: 110px;
+        margin-right: -30px;
+        div:first-child {
+            margin-left: 0px;
+            padding-right: 0px;
+        }
+    }
+}
+
+.mx-table {
+    label {
+        padding-top: 3px;
+    }
+}
